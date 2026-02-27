@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* шапка */
+.header_conteiner {
+  background-color: #1d2f30;
+  height: 60px;
+  width: 100%;
+  align-items: center;
+  padding: 0px 165px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav_list {
+  display: flex;
+  list-style: none;
+  font-size: 24px;
+  gap: 20px;
+  color: white;
+}
+.nav_list a {
+  color: white;
+  text-decoration: none;
+}
+.nav_list :hover {
+  transition-duration: 1s;
+  color: green;
+}
+.search_logout {
+  display: flex;
+  gap: 64px;
+}
+/* 1 глова */
+.hero {
+  padding: 0px 165px;
+
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/icon/body/listok.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 490px;
+}
+.hero .global_text {
+  width: 688px;
+  height: 125px;
+  align-items: center;
+  font-size: 50px;
+  color: white;
+}
+.hero .text {
+  font-size: 15px;
+  width: 635px;
+  height: 72px;
+  padding: 0px;
+  color: white;
+}
+
+.gobal_text_together {
+  padding: 165px 0px 0px 0px;
+}
+.bg_color {
+  background-color: #1d2f30;
+  height: 1303px;
+}
+.block_img {
+  width: 255px;
+  height: 493px;
+  border: 2px solid black;
+}
+.plant,
+.flower,
+.leaf,
+.wood {
+  padding: 16px 30px;
+  height: 180px;
+  width: 255px;
+  background-color: #0b1919;
+}
+
+.block_img_convert {
+  rotate: z 90deg;
+}
+.leaf img {
+  rotate: z 120deg;
+}
+.wood {
+  padding: 15px 30px;
+}
+.tree_collection {
+  padding: 60px 0px;
+  display: flex;
+  justify-content: space-between;
+  height: 555px;
+}
+
+.block_img_text {
+  padding: 16px;
+  color: grey;
+  width: 255px;
+  height: 313px;
+  font-size: 16px;
+}
+.block_img_text h1 {
+  padding: 16px 0px 8px;
+  font-size: 36px;
+  color: white;
+}
+
+.tri h2 {
+  font-size: 48px;
+  color: white;
+  padding: 57px 0px 0px;
+}
+.group_rasteniya {
+  padding: 15px 0px;
+  width: 825px;
+  height: 493px;
+  background-color: #0b1919;
+  justify-content: space-between;
+}
+
+.rectagle {
+  width: 255px;
+  height: 493px;
+  background-color: #bae249;
+}
+
+.rectagle_text {
+  padding: 16px;
+  font-size: 16px;
+}
+.rectagle_text img {
+  padding: 120px 0px;
+}
+.rectagle_text_p1 {
+  padding: 8px 0px;
+}
+.rectagle_text_p2 {
+  padding: 15px 0px;
+}
+.group_rasteniya_collection {
+  padding: 30px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.chetyre {
+  padding: 0px 165px;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/icon/body/listok.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  height: 463px;
+}
+.chetyre h2 {
+  padding: 60px 0px 16px;
+  font-size: 48px;
+  color: white;
+}
+.chetyre p {
+  width: 825px;
+  height: 72px;
+  font-size: 16px;
+  color: white;
+}
+.chetyre input {
+  width: 350px;
+  height: 45px;
+  font-size: 16px;
+}
+.chetyre button {
+  margin: 24px 0px;
+  border: none;
+}
+.padin {
+  padding: 0px 165px;
+}
+.footer_container {
+  background-color: #0b1919;
+  width: 100%;
+  padding: 18px 165px;
+  height: 60px;
+}
+.bk {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+.bk_li {
+  width: 186px;
+  justify-content: space-between;
+  display: flex;
+  list-style: none;
+}
